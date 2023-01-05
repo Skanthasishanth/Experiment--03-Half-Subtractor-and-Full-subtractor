@@ -26,7 +26,7 @@ Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Procedure
 ### STEP 1:
-Use module projname(input,output) to start the Verilog programmming.
+Use module projname(input,output) to start the Verilog programming.
 
 ### STEP 2:
 Assign inputs and outputs using the word input and output respectively.
