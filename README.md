@@ -71,14 +71,14 @@ endmodule
 ### Truthtable
 ![Truth Table HS](https://github.com/Skanthasishanth/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/Truth%20Table%20HS.png)
 ###  RTL realization
-![RTL HS](https://github.com/Skanthasishanth/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/RTL%20Viewer%20HS.png)
+![RTL HS]()
 ### Timing diagram 
 ![Timing diagram HS](https://github.com/Skanthasishanth/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/Timing%20Diagram%20HS.png)
 ## Full Subtractor
 ### Truthtable
 ![Truth Table FS](https://github.com/Skanthasishanth/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/Truth%20Table%20FS.png)
 ###  RTL realization
-![RTL FS](https://github.com/Skanthasishanth/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/RTL%20Viewer%20FS.png)
+![RTL FS]()
 ### Timing diagram 
 ![Timing diagram FS](https://github.com/Skanthasishanth/Experiment--03-Half-Subtractor-and-Full-subtractor/blob/main/Timing%20Diagram%20FS.png)
 
