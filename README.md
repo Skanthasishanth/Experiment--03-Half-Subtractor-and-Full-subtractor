@@ -49,20 +49,20 @@ RegisterNumber: 22007660
 ```
 ```
 ### Half Subtractor
-module exphs (a,b,diff,borr);
-input a,b;
-output diff,borr;
-assign diff = (a ^ b);
-assign borr = (~ a & b);
+module exphs (A,B,diff,borrow);
+input A,B;
+output diff,borrow;
+assign diff = (A ^ B);
+assign borrow = (~ A & B);
 endmodule
 ```
 ```
 ### Full Subtractor
-module expfs (A,B,C,Diff,Borr);
+module expfs (A,B,C,diff,borrow);
 input A,B,C;
-output Diff,Borr;
-assign Borr = (~A&(B^C)|(B&C));
-assign Diff = (A^B^C);
+output diff,borrow;
+assign borrow = (~A&(B^C)|(B&C));
+assign diff = (A^B^C);
 endmodule
 ```
 
