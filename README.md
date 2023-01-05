@@ -4,8 +4,7 @@
 To design a half subtractor and full subtractor circuit and verify its truth table in Quartus using Verilog programming.
 
 ## Equipments Required:
-## Hardware – PCs, Cyclone II , USB flasher
-## Software – Quartus prime
+Hardware – PCs, Cyclone II , USB flasher, Software – Quartus prime
 ## Theory
 Subtractor circuits take two binary numbers as input and subtract one binary number input from the other binary number input. Similar to adders, it gives out two outputs, difference and borrow (carry-in the case of Adder). There are two types of subtractors.
 
@@ -26,18 +25,46 @@ A full subtractor is a combinational circuit that performs subtraction involving
 Diff = A ⊕ B ⊕ Bin B = A'Bin + A'B + BBin
 
 ## Procedure
+### STEP 1:
+Use module projname(input,output) to start the Verilog programmming.
 
+### STEP 2:
+Assign inputs and outputs using the word input and output respectively.
 
+### STEP 3:
+Use defined keywords like wire,assign and required logic gates to represent the boolean expression.
 
-Write the detailed procedure here 
+### STEP 4:
+Use each output to represent one for difference and the other for borrow.
+
+### STEP 5:
+End the verilog program using keyword endmodule.
 
 
 ## Program:
-/*
+```
 Program to design a half subtractor and full subtractor circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: S Kantha Sishanth
+RegisterNumber: 22007660 
+```
+```
+### Half Subtractor
+module exphs (a,b,diff,borr);
+input a,b;
+output diff,borr;
+assign diff = (a ^ b);
+assign borr = (~ a & b);
+endmodule
+```
+```
+### Full Subtractor
+module expfs (A,B,C,Diff,Borr);
+input A,B,C;
+output Diff,Borr;
+assign Borr = (~A&(B^C)|(B&C));
+assign Diff = (A^B^C);
+endmodule
+```
 
 ## Output:
 
